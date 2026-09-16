@@ -1,0 +1,26 @@
+# ---------- KiCad ----------
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*-backups/
+_autosave-*
+*.lck
+fp-info-cache
+.history/
+
+# ---------- STM32CubeIDE ----------
+Debug/
+Release/
+.metadata/
+.settings/
+
+# ---------- DIY Layout Creator ----------
+*.diy~
+
+# ---------- OS-generated files ----------
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# ---------- Editor/IDE clutter ----------
+.vscode/
+*.swp
