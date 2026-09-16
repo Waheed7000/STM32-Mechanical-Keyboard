@@ -39,12 +39,14 @@ The current stage is shown in **bold**.
 ---
 
 ## Project Structure
-
-- [`STM32-Num-Pad/STM32-Num-Pad-Schima/`](STM32-Num-Pad/STM32-Num-Pad-Schima/) — KiCad schematic and PCB project for the Numpad
-- [`STM32-Num-Pad/STM32-Num-Pad-Perfboard Layout/`](STM32-Num-Pad/STM32-Num-Pad-Perfboard%20Layout/) — DIY Layout Creator perfboard designs (MCU board and button matrix board)
-- `STM32-Num-Pad/STM32-Num-Pad-Firmware/` — Numpad firmware (STM32CubeIDE project) — *in progress*
-- Full keyboard directory — schematic, PCB, and firmware for the full mechanical keyboard — *not started yet*
-
+ 
+<pre>
+STM32-Mechanical-Keyboard/
+└── STM32-Num-Pad/
+    ├── STM32-Num-Pad-Schima/
+    └── STM32-Num-Pad-Perfboard Layout/
+</pre>
+ 
 ---
 
 ## License
